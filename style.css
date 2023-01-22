@@ -1,0 +1,49 @@
+body {
+    background-color: #302a2a;
+    font-family: Arial, sans-serif;
+    color: #ccc;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 49%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #output {
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 4px;
+    text-align: justify;
+  }
+  
+  #output p {
+    margin: 5px 0;
+    color: #333;
+  }
+.botona{
+    display: flex;
+    justify-content: space-between;
+    
+}

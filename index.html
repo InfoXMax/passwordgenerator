@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url" required>
+        <br>
+        <button type="button" onclick="generatePassword()">Generate Password</button>
+      </form>
+      <br>
+      <div id="output">
+        <p><strong>Username:</strong> <span id="username-output"></span></p>
+        <p><strong>Email:</strong> <span id="email-output"></span></p>
+        <p><strong>URL:</strong> <span id="url-output"></span></p>
+        <p><strong>Password:</strong> <span id="password-output"></span></p>
+      </div>
+      <div class="botona">
+      <button type="button" id="copy-button">Copy</button>
+      
+      <button type="button" onclick="saveToCSV()">Save</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
